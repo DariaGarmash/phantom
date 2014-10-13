@@ -558,11 +558,6 @@ body {
 #sidebar .img-gallery {
     list-style: none;
 }
-#sidebar .img-gallery {
-    -webkit-transform: skewX(140deg);-moz-transform:skewX(140deg) ;-ms-transform: skewX(140deg);-o-transform:skewX(140deg) ;transform: skewX(140deg);
-    -webkit-transform-origin: bottom right;-moz-transform-origin: bottom right;-ms-transform-origin: bottom right;-o-transform-origin: bottom right;transform-origin: bottom right;
-}
-
 .section .box .box-info .content li {
     padding: 16px 25px 16px 37px;
     text-transform: capitalize;
@@ -608,10 +603,10 @@ body {
     background-position: -33px 0;
     top: -3px;
 }
-#sidebar .img-gallery li {
+.img-gallery li {
     float: left;
     margin: 0 0 0 7px;
 }
-#sidebar .img-gallery:first-child li {
+.img-gallery:first-child li {
     margin: 0;
 }
